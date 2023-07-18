@@ -1,0 +1,58 @@
+.panda-header {
+    height: auto;
+    padding-inline: 0;
+}
+
+.panda-content {
+    width: 100%;
+    max-width: 80rem;
+    margin: 0 auto 0 auto;
+    padding: 25px;
+
+    &[data-is-dark-theme="true"] {
+        color: white;
+    }
+
+    &[data-is-dark-theme="false"] {
+        color: black;
+    }
+}
+
+.panda-slider {
+    height: 100% !important;
+}
+
+.panda-menu {
+    border-inline-end: 0 !important;
+    background-color: transparent !important;
+}
+
+.panda-logo-row {
+    padding: 0.1rem 0 0.1rem 0;
+}
+
+.ant-menu-item-selected {
+    font-weight: bolder
+}
+
+.logo {
+    z-index: 100;
+    position: relative;
+    margin: auto;
+    max-height: 3.5rem !important;
+
+    + span {
+        margin: 0 auto 0 auto;
+        font-size: 1.2rem;
+        font-weight: bold;
+        line-height: initial;
+
+        &[data-is-dark-theme="true"] {
+            color: white;
+        }
+
+        &[data-is-dark-theme="false"] {
+            color: black;
+        }
+    }
+}

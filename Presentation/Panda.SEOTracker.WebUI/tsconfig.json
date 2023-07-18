@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./build/development",
+    "rootDirs": [ "src" ],
+    /* Basic Options */
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "ES6",
+    "lib": [ "ES6", "dom", "ES5", "ESNext" ],
+    "jsx": "react",
+    "sourceMap": true,
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "removeComments": true,
+    /* Strict Type-Checking Options */
+    "strict": true,
+    "alwaysStrict": true,
+    /* Additional Checks */
+    "noUnusedLocals": true,
+    //"noUnusedParameters": true,
+    //"noImplicitAny": true,
+    "noImplicitReturns": true,
+    /* Module Resolution Options */
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    /* Advanced Options */
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "exclude": [
+    "node_modules",
+    "**/*/node_modules",
+    "**/*/lib",
+    "**/*/build"
+  ],
+  "include": [
+    "**/*.ts",
+    "**/*.d.ts",
+    "**/*.tsx"
+  ]
+}
